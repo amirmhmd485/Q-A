@@ -4,12 +4,12 @@ allButtons.forEach(btn => {
     let opens = true;
     btn.addEventListener("click" , function(e){
         if(opens){
-            btn.parentElement.nextElementSibling.style.display = "flex";
+            btn.parentElement.parentElement.style.height = "237px";
             btn.className = "fa-solid fa-minus";
             opens = false;
         }
         else{
-            btn.parentElement.nextElementSibling.style.display = "none";
+            btn.parentElement.parentElement.style.height = "90px";
             btn.className = "fa-solid fa-plus";
             opens = true;
         }
