@@ -35,6 +35,8 @@ body{
                 font-size: 25px;
                 cursor: pointer;
                 transition: 0.5s;
+                border: 2px solid brown;
+                padding: 5px;
                 &:active{
                     transform: scale(0.5);
                 }
